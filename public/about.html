@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<!-- Navbar -->
+<nav class="navbar fixed-top navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="../index.html">Home</a>
+          <a class="nav-link" href="./resume.html">Resume</a>
+          <a class="nav-link active" aria-current="page" href="#">About</a>
+        </div>
+      </div>
+    </div>
+</nav>
+<body>
+    <!-- Carousel --> 
+    <section id="Carousel">
+    <div id="myCarousel" class="carousel slide mb-6 pointer-event" data-interval="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="../assets/images/hotpot_restaurant.jpg" class="carousel-img" alt="A field of flowers in Iceland">
+            <div class="container">
+                <div class="carousel-caption mx-auto grid" id="baking">
+                    <div id="nav-filler"></div>
+                    <img class="grid-img" id="babka" src="../assets/images/baking-babka.jpg" alt="babka">
+                    <img class="grid-img" id="cake-roll" src="../assets/images/baking-cake_roll.jpg" alt="cake roll">
+                    <img class="grid-img" id="crinkle" src="../assets/images/baking-chocolate_crinkle.jpg" alt="chocolate crinkle">
+                    <img class="grid-img" id="pie" src="../assets/images/baking-blueberry_pie.jpg" alt="blueberry pie">
+                    <div class="pt-5">
+                        <h1 class="display-1">Baking</h1>
+                    </div>
+                    <img class="grid-img" id="cake" src="../assets/images/baking-flourless_chocolate_strawberries.jpg" alt="flourless chocolate cake decorated with strawberries">
+                    <img class="grid-img" id="garlic-knots" src="../assets/images/baking-garlic_knots.jpg" alt="garlic knots">
+                    <img class="grid-img" id="pizza" src="../assets/images/baking-pizza.jpg" alt="pizza">
+                </div>
+                <!-- <div class="carousel-caption text-start" id="baking-caption">
+                    <h1 class="display-1">Baking</h1>
+                    <br><br>
+                </div> -->
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <img src="../assets/images/dragonstone.jpg" class="carousel-img" alt="Black sand beach in Iceland">
+            <div class="container">
+              <div class="carousel-caption pb-4">
+                <h1 class="display-1">About Me</h1>
+                <p class="lead fw-normal">Outside of work, I enjoy baking, exploring new restaurants, and traveling! I also play video games, rock climb, and have started taking Chinese dance classes.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/images/iceland_sunset.jpg" class="carousel-img" alt="Sunset over water from Reykjavik, Iceland">
+            <div class="container">
+              <div class="carousel-caption mx-auto grid" id="food">
+                <div id="nav-filler"></div>
+                <img class="grid-img" src="../assets/images/truffle_fish.jpg" alt="fish seasoned with truffle">
+                <img class="grid-img" src="../assets/images/coffee.jpg" alt="coffee with whipped cream">
+                <img class="grid-img" src="../assets/images/pork_clam.jpg" alt="clam with pork belly">
+              </div>  
+              <div class="carousel-caption text-end">
+                <h1 class="display-1">Food and Travel</h1>
+                <p class="lead fw-normal">I'm always excited to discover great food, whether that's at home in NYC or while traveling.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Main --> 
+    <main>
+        <div class="container">
+            <div class="main-grid my-md-5 my-3 mx-auto">
+                <div class="card" id="games-card">
+                    <div class="card-body">
+                    <h5 class="card-title">Favorite baking/food blogs</h5>
+                    <ul>
+                        <li class="text-body-secondary"><a href="https://sallysbakingaddiction.com/">Sally's Baking Addition</a></li>
+                        <li class="text-body-secondary"><a href="https://rasamalaysia.com/">Rasa Malaysia</a></li>
+                        <li class="text-body-secondary"><a href="https://thewoksoflife.com/">The Woks of Life</a></li>
+                    </ul>
+                    </div>
+                </div> 
+                <div class="card" id="recipes-card">
+                <div class="card-body">
+                    <h5 class="card-title">Currently playing</h5>
+                    <ul>
+                        <li class="text-body-secondary">Honkai Star Rail*</li>
+                        <li class="text-body-secondary">Genshin Impact</li>
+                        <li class="text-body-secondary">Hollow Knight</li>
+                    </ul>
+                </div>
+                </div>
+                <div class="card" id="blogs-card">
+                <div class="card-body">
+                    <h5 class="card-title">My go-to recipes</h5>
+                    <ul>
+                        <li class="text-body-secondary"><a href="https://docs.google.com/document/d/12L1TkTqyeWhb7OWEI2o1AvSpHtsl1C5dPQgcCMmenAQ/edit?pli=1">Garlic knots</a> (always a classic!)</li>
+                        <li class="text-body-secondary"><a href="https://sallysbakingaddiction.com/lemon-bars-recipe/">Lemon bars/tart</a> (but like, adjusted to fit my glass pie pan lol)</li>
+                        <li class="text-body-secondary"><a href="https://www.koreanbapsang.com/dweji-bulgogi-korean-spicy-pork-bbq/">Korean spicy pork belly</a> (a special thank you to my roommate for this one)</li>
+                        <li class="text-body-secondary"><a href="https://thewoksoflife.com/poached-chicken-scallion-ginger-sauce/">Poached chicken with ginger scallion sauce</a></li>
+                        <li class="text-body-secondary"><a href="https://thewoksoflife.com/thai-basil-chicken-pad-krapow/">Thai basil chicken</a> (add green bell pepper, trust me)</li>
+                        <li class="text-body-secondary"><a href="https://cooking.nytimes.com/recipes/1016275-japanese-milk-bread">Basic white bread!</a> But you know, get creative with it</li>
+                    </ul>
+                </div>
+                </div> 
+            </div>
+        </div>
+    </main>
+</body>
+
+<!-- Footer --> 
+<section id="Footer" class="footer">
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top">
+            <ul class="nav col-md-4">
+                <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="./resume.html" class="nav-link px-2 text-body-secondary">Resume</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+              </ul>
+        </footer>
+      </div>
+</section>
+</html>
